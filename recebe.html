@@ -1,0 +1,50 @@
+<html>
+    <head>
+    <body>
+      <h1>Formulário com método post</h1>
+    <form action="/recebe.html" method="post">
+        <!--Este é um campo de nome completo-->
+        <label for="nomecompleto"> nomecompleto: </label>
+        <br>
+        <input type="text" maxlength="50" ="nomecompleto" name="nomecompleto">
+        <br>
+        <!--Este é um campo de senha-->
+        <label for="senha"> senha: </label>
+        <br>
+        <input type="password" id="senha" name="senha">
+        <br>
+        <!--Este é um campo de idade-->
+        <label for="idade"> idade: </label>
+        <br>
+        <input type="number" minlength="1" maxlength="10" id="idade" name="idade">
+        <br>
+        <!--Eeste é um campo de idade-->
+        <label for="email"> email: </label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+        <!--Este é um campo de data de nascimento-->
+        <label for="datadenascimento"> datadenascimento: </label>
+        <br>
+        <input type="date" minlength="01-01-2000" maxlength="31-12-2024" id="date" name="date">
+        <br>
+        <!--Este é um campo de mensagem de observações-->
+        <label for="mensagemdeobservações"> mensagemdeobservações: </label>
+        <br>
+        <textarea rows="4" cols="40" id="mansagem" name="mensagem"> </textarea>
+        <br>
+        <!--Este é um campo de area de interesse-->
+        <label for="areadeinteresse"> areadeinteresse: </label>
+        <br>
+        <select id="areadeinteresse">
+            <option value="programação">programação</option>
+            <option value="design">design</option>
+            <option value="redes">redes</option>
+            <option value="suporte">suporte</option>
+        </select>
+        <br>
+        <br>
+        Botão de envio: <input type="submit" value="enviar">
+        <br>
+    </head>
+</html>
